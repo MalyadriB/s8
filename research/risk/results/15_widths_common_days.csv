@@ -1,0 +1,22 @@
+sample,days,structure,net,avg/day,win%,worst_day,max_dd,t
+all common days,96,iron fly W = 0.5 x premium,-10334.0,-108.0,33.3,-4461.0,40018.0,-0.28
+all common days,96,iron fly W = 0.75 x premium,54883.0,572.0,47.9,-9750.0,52683.0,0.9
+all common days,96,iron fly W = 1.0 x premium,111267.0,1159.0,54.2,-14980.0,57996.0,1.31
+all common days,96,iron fly W = 1.25 x premium,124477.0,1297.0,57.3,-16724.0,63750.0,1.23
+all common days,96,iron fly W = 1.5 x premium,204814.0,2133.0,59.4,-19363.0,54879.0,1.83
+all common days,96,iron fly W = 2.0 x premium,266725.0,2778.0,60.4,-32385.0,51215.0,1.98
+all common days,96,S1 (no wings),460003.0,4792.0,64.6,-46559.0,58281.0,2.95
+first 60%,57,iron fly W = 0.5 x premium,-10216.0,-179.0,28.1,-4461.0,29733.0,-0.32
+first 60%,57,iron fly W = 0.75 x premium,54109.0,949.0,50.9,-7560.0,23122.0,1.17
+first 60%,57,iron fly W = 1.0 x premium,66852.0,1173.0,54.4,-11677.0,41979.0,1.08
+first 60%,57,iron fly W = 1.25 x premium,80674.0,1415.0,59.6,-16724.0,39602.0,1.05
+first 60%,57,iron fly W = 1.5 x premium,117547.0,2062.0,61.4,-18556.0,37795.0,1.38
+first 60%,57,iron fly W = 2.0 x premium,161111.0,2827.0,61.4,-32385.0,43499.0,1.59
+first 60%,57,S1 (no wings),310929.0,5455.0,66.7,-46559.0,48060.0,2.72
+last 40%,39,iron fly W = 0.5 x premium,-118.0,-3.0,41.0,-4129.0,29421.0,-0.01
+last 40%,39,iron fly W = 0.75 x premium,774.0,20.0,43.6,-9750.0,52683.0,0.02
+last 40%,39,iron fly W = 1.0 x premium,44415.0,1139.0,53.8,-14980.0,57996.0,0.76
+last 40%,39,iron fly W = 1.25 x premium,43803.0,1123.0,53.8,-15207.0,63750.0,0.66
+last 40%,39,iron fly W = 1.5 x premium,87267.0,2238.0,56.4,-19363.0,54879.0,1.19
+last 40%,39,iron fly W = 2.0 x premium,105614.0,2708.0,59.0,-28693.0,51215.0,1.18
+last 40%,39,S1 (no wings),149074.0,3822.0,61.5,-42666.0,58281.0,1.39

@@ -1,0 +1,28 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+
+# secrets - never committed (backend/.env.example shows the settings, with placeholders)
+.env
+.env.*
+!.env.example
+
+# market data, databases and caches - local only (market.db alone is ~120 GB)
+backend/data/
+backend/.scratch/
+research/**/cache/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.pkl
+*.jsonl
+
+# build output and local tooling
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+.claude/
+*.log

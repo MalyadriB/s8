@@ -1,0 +1,17 @@
+{
+  "s4_days": 479,
+  "skipped_days": [],
+  "expiry_days": 102,
+  "days_taken_from_S3": 102,
+  "declared_check": {
+    "total_rs": 567193.43,
+    "worst_day": "2025-05-12",
+    "worst_day_rs": -48218.38
+  },
+  "lab_basis_3_lots_65_units": {
+    "total_rs": 615413.63,
+    "straddle_sell": 699363.16,
+    "iron_fly_w1": 199495.19,
+    "iron_fly_w2": 427345.62
+  }
+}

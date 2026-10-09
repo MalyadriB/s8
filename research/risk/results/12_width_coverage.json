@@ -1,0 +1,13 @@
+{
+  "days_total": 479,
+  "coverage_days": {
+    "0.5": 102,
+    "0.75": 122,
+    "1.0": 478,
+    "1.25": 116,
+    "1.5": 96,
+    "2.0": 478
+  },
+  "days_with_all_widths": 96,
+  "note": "alternative widths need candles that are not stored; token expired 2026-09-20 03:30"
+}

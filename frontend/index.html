@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a1128" />
+  <link rel="icon" type="image/png" href="/favicon.png?v=3" sizes="64x64" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <title>Straddle</title>
+  <script>
+    // Applied before anything paints, so the page never flashes the wrong theme on load —
+    // must read the same localStorage key App.tsx's THEME_STORAGE_KEY writes.
+    (function () {
+      try {
+        var stored = localStorage.getItem('zero-theme')
+        document.documentElement.setAttribute('data-theme', stored === 'light' ? 'light' : 'dark')
+        document.documentElement.setAttribute('data-bg', 'sky')
+        document.documentElement.setAttribute('data-skin', localStorage.getItem('zero-skin') || 'glass')
+      } catch (error) {
+        /* localStorage unavailable — App.tsx's own effect will still apply the default theme */
+      }
+    })()
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

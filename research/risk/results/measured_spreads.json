@@ -1,0 +1,127 @@
+{
+  "files": [
+    "stream-2026-09-15.jsonl",
+    "stream-2026-09-16.jsonl",
+    "stream-2026-09-17.jsonl"
+  ],
+  "samples_per_day": {
+    "2026-09-15": 16661,
+    "2026-09-16": 17877,
+    "2026-09-17": 416
+  },
+  "note": "top-of-book ask-bid in index points, nearest-listed expiries; two full sessions (09-15, 09-16) plus part of 09-17",
+  "rows": [
+    {
+      "distance": "100-150 away",
+      "phase": "entry 09:30-09:35",
+      "samples": 531,
+      "mean_spread": 0.267,
+      "median_spread": 0.3,
+      "p90_spread": 0.35
+    },
+    {
+      "distance": "100-150 away",
+      "phase": "exit 15:20-15:30",
+      "samples": 159,
+      "mean_spread": 0.208,
+      "median_spread": 0.25,
+      "p90_spread": 0.3
+    },
+    {
+      "distance": "100-150 away",
+      "phase": "mid-session",
+      "samples": 9859,
+      "mean_spread": 0.167,
+      "median_spread": 0.1,
+      "p90_spread": 0.3
+    },
+    {
+      "distance": "200-250 away",
+      "phase": "entry 09:30-09:35",
+      "samples": 532,
+      "mean_spread": 0.208,
+      "median_spread": 0.2,
+      "p90_spread": 0.25
+    },
+    {
+      "distance": "200-250 away",
+      "phase": "exit 15:20-15:30",
+      "samples": 174,
+      "mean_spread": 0.157,
+      "median_spread": 0.15,
+      "p90_spread": 0.25
+    },
+    {
+      "distance": "200-250 away",
+      "phase": "mid-session",
+      "samples": 9007,
+      "mean_spread": 0.133,
+      "median_spread": 0.1,
+      "p90_spread": 0.25
+    },
+    {
+      "distance": "300-350 away",
+      "phase": "entry 09:30-09:35",
+      "samples": 136,
+      "mean_spread": 0.161,
+      "median_spread": 0.15,
+      "p90_spread": 0.2
+    },
+    {
+      "distance": "300-350 away",
+      "phase": "exit 15:20-15:30",
+      "samples": 48,
+      "mean_spread": 0.119,
+      "median_spread": 0.075,
+      "p90_spread": 0.2
+    },
+    {
+      "distance": "300-350 away",
+      "phase": "mid-session",
+      "samples": 3410,
+      "mean_spread": 0.094,
+      "median_spread": 0.05,
+      "p90_spread": 0.2
+    },
+    {
+      "distance": "400-500 away",
+      "phase": "exit 15:20-15:30",
+      "samples": 32,
+      "mean_spread": 0.05,
+      "median_spread": 0.05,
+      "p90_spread": 0.05
+    },
+    {
+      "distance": "400-500 away",
+      "phase": "mid-session",
+      "samples": 289,
+      "mean_spread": 0.05,
+      "median_spread": 0.05,
+      "p90_spread": 0.05
+    },
+    {
+      "distance": "ATM (<=50)",
+      "phase": "entry 09:30-09:35",
+      "samples": 534,
+      "mean_spread": 0.344,
+      "median_spread": 0.35,
+      "p90_spread": 0.45
+    },
+    {
+      "distance": "ATM (<=50)",
+      "phase": "exit 15:20-15:30",
+      "samples": 190,
+      "mean_spread": 0.279,
+      "median_spread": 0.3,
+      "p90_spread": 0.4
+    },
+    {
+      "distance": "ATM (<=50)",
+      "phase": "mid-session",
+      "samples": 10053,
+      "mean_spread": 0.236,
+      "median_spread": 0.2,
+      "p90_spread": 0.4
+    }
+  ]
+}

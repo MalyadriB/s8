@@ -1,0 +1,71 @@
+{
+  "date_range": [
+    "2024-10-03",
+    "2026-09-18"
+  ],
+  "straddle_daily_days": 479,
+  "reproduced_days": 479,
+  "issues": [
+    "2025-03-24 iron_fly_w2: wing CE 24000 unavailable (no 09:30 bar) - the project's backtest skips this day too",
+    "2025-03-25 iron_fly_w1: wing CE 24000 unavailable (no 09:30 bar) - the project's backtest skips this day too"
+  ],
+  "strategies": {
+    "straddle_sell": {
+      "days": 479,
+      "leg_price_mismatch": 0,
+      "net_rs_mismatch": 0,
+      "missing_in_repro": [],
+      "extra_in_repro": [],
+      "max_abs_net_diff_rs": 0.0,
+      "reproduced_net_rs_195_units": 699363.16,
+      "stored_net_rs_195_units": 699363.16,
+      "reproduced_net_rs_1_lot": 208702.51,
+      "stored_net_rs_1_lot": 208702.51,
+      "stored_days": 479
+    },
+    "iron_fly_w1": {
+      "days": 478,
+      "leg_price_mismatch": 0,
+      "net_rs_mismatch": 0,
+      "missing_in_repro": [],
+      "extra_in_repro": [],
+      "max_abs_net_diff_rs": 0.0,
+      "reproduced_net_rs_195_units": 199495.19,
+      "stored_net_rs_195_units": 199495.19,
+      "reproduced_net_rs_1_lot": 9493.83,
+      "stored_net_rs_1_lot": 9493.83,
+      "stored_days": 478
+    },
+    "iron_fly_w2": {
+      "days": 478,
+      "leg_price_mismatch": 0,
+      "net_rs_mismatch": 0,
+      "missing_in_repro": [],
+      "extra_in_repro": [],
+      "max_abs_net_diff_rs": 0.0,
+      "reproduced_net_rs_195_units": 427345.62,
+      "stored_net_rs_195_units": 427345.62,
+      "reproduced_net_rs_1_lot": 91155.19,
+      "stored_net_rs_1_lot": 91155.19,
+      "stored_days": 478
+    }
+  },
+  "baseline_reproduced": true,
+  "data_facts": {
+    "nifty_1min_csv": {
+      "path": "D:\\zero\\backend\\data\\exports\\nifty_1min.csv",
+      "first_day": "2023-09-06",
+      "last_day": "2026-09-17",
+      "days": 750
+    },
+    "option_candles": "market_observations (1-minute, per option contract, expired-contract keys); wings only exist for the S2/S3 strikes (plus ATM +-10 strikes on expiry days)",
+    "trading_days_in_dataset": 479,
+    "expiry_days": 102,
+    "lot_sizes_in_project_history": [
+      25,
+      65,
+      75
+    ],
+    "spread_assumption_in_backtest": "none - candle prices (09:30 open, 15:29 close) with brokerage/STT/exchange/SEBI/stamp/GST only"
+  }
+}
